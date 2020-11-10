@@ -452,5 +452,5 @@ def Login():
 
 
 if __name__ == "__main__":
-    app.run(port=3000, debug=True)
+    app.run(threaded=True, host="0.0.0.0", port=5000, debug=True)
 
